@@ -4,4 +4,4 @@ package main
 
 //go:generate sqlc generate -f ./internal/pgstore/sqlc.yaml
 
-//goapi-gen --out ./internal/spec/journey.gen.spec.go ./internal/spec/journey.spec.json
+//go:generate goapi-gen --package=spec --out ./internal/spec/journey.gen.spec.go ./internal/spec/journey.spec.json

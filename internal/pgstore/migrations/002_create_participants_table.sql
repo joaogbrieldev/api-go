@@ -8,8 +8,3 @@ CREATE TABLE IF NOT EXISTS participants (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
-
----- create above / drop below ----
-
-DROP TABLE IF EXISTS participants;
-
